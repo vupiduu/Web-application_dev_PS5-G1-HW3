@@ -1,0 +1,68 @@
+import {createStore} from 'vuex'
+
+export default createStore({
+    state: {
+        postsList: [
+            {
+                "userName": "John Smith",
+                "date": "Oct 22, 2025",
+                "picture": "",
+                "content": "I love Tartu so much."
+            },
+            {
+                "userName": "Kaarel Tamm",
+                "date": "Oct 2, 2025",
+                "picture": "./res/images/tartu2024.jpg",
+                "content": "Tartu 2024"
+            },
+            {
+                "userName": "Mihkel Kiik",
+                "date": "Sep 28, 2025",
+                "picture": "",
+                "content": "print(\"Hello, World!\")"
+            },
+            {
+                "userName": "Anne Kask",
+                "date": "Sep 25, 2025",
+                "picture": "./res/images/default_pfp.jpg",
+                "content": "System.out.println(\"Hello, World!\");"
+            },
+            {
+                "userName": "Triin Kuusik",
+                "date": "Sep 20, 2025",
+                "picture": "./res/images/icon.ico",
+                "content": "console.log(\"Hello, World!\");"
+            },
+            {
+                "userName": "Mari Mustikas",
+                "date": "Sep 10, 2025",
+                "picture": "",
+                "content": "I just started learning Angular!"
+            },
+            {
+                "userName": "Meeri Lambake",
+                "date": "Sep 11, 2025",
+                "picture": "",
+                "content": "Angular is not good. I prefer React."
+            },
+            {
+                "userName": "Sergei Ivanov",
+                "date": "Sep 12, 2025",
+                "picture": "",
+                "content": "I like Vue.js the most."
+            },
+            {
+                "userName": "Andres Saar",
+                "date": "Sep 13, 2025",
+                "picture": "",
+                "content": "I code my frontend in C. Anyone else?"
+            },
+            {
+                "userName": "Natalie Stern",
+                "date": "Sep 14, 2025",
+                "picture": "https://imgs.search.brave.com/ybCZuLmHHiIie1YZ44e-HZSORZ-qb69Y_RMxKlUlGG0/rs:fit:500:0:1:0/g:ce/aHR0cHM6Ly9jZG4u/YnJpdGFubmljYS5j/b20vMzMvMTM2MTMz/LTAwNC0zMzg1RjZG/NS9nb2xkZW4tcmV0/cmlldmVyLmpwZw",
+                "content": "I love my dog!"
+            }
+        ]
+    }
+})
