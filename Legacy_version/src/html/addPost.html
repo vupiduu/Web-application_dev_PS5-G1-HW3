@@ -1,0 +1,57 @@
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../../res/images/icon.ico" />
+  <link rel="stylesheet" href="../../res/css/style.css" />
+  <link rel="stylesheet" href="../../res/css/addPost.css" />
+  <script type="text/javascript" src="../../index.js"></script>
+  <title>addPost - CSS</title>
+</head>
+
+<body>
+  <nav class="nav">
+    <ul>
+      <li>
+        <a class="root" href="../../index.html">Home</a>
+      </li>
+    </ul>
+    <div id="profile-container" class="profile-container">
+        <button class="logo"
+          ><img id="profilePic" src="../../res/images/icon.ico" width="50" height="50" alt="My logo"
+        /></button>
+        <div id="userInfoDropdown">
+          <p><strong>John Doe</strong></p>
+          <p>john.doe@example.com</p>
+          <button id="logoutBtn">Logout</button>
+        </div>
+      </div>
+  </nav>
+
+  <main class="plane">
+    <form class="card" action="../../index.html" method="get">
+      <div class="row">
+        <label for="textbox">Post body</label>
+        <textarea
+          id="textbox"
+          name="textbox"
+          rows="5"
+          placeholder="textarea"
+        ></textarea>
+      </div>
+
+      <div class="row">
+        <label for="file">Select file</label>
+        <input id="file" type="file" disabled />
+      </div>
+
+      <div id="actions">
+        <button type="submit">Create post</button>
+      </div>
+    </form>
+  </main>
+</body>
+
+</html>
