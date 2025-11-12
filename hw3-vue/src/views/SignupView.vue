@@ -120,7 +120,7 @@ export default {
   width: 70%;
   padding: 8px;
   margin-top: 10px;
-  background-color: #00aaff;
+  background-color: #42a36b;
   border: none;
   border-radius: 3px;
   color: white;
@@ -129,7 +129,7 @@ export default {
 }
 
 .signup-box button:hover {
-  background-color: #008fcc;
+  background-color: #54c77f;
 }
 
 </style>
