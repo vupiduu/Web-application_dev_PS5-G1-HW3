@@ -21,7 +21,7 @@
 </template>
 
 <script>
-import Post from "@/components/post.vue";
+import Post from "@/components/Post.vue";
 export default {
   name: "HomeView",
   components: {
