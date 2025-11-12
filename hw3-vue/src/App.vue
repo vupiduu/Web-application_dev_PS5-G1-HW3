@@ -10,6 +10,9 @@ import FooterComponent from '@/components/FooterComponent.vue'
 </template>
 
 <style>
+  * {
+    box-sizing: border-box;
+  }
   body, #app {
     margin: 0;
     padding: 0;
