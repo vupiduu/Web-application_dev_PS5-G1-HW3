@@ -10,12 +10,14 @@
     </div>
     <div id="main-content">
       <post v-for="post in postsList" :key="post.id" :post="post"></post>
+      <button class="reset-likes" v-on:click="ResetLikes">Reset Likes</button>
     </div>
     <div id="sidebar-right">
       <p>sidebar-right</p>
     </div>
   </main>
-  <button v-on:click="ResetLikes">Reset Likes</button>
+
+
 </template>
 
 <script>
@@ -45,7 +47,7 @@ export default {
 <style scoped>
 .home {
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 5rem;
 }
 </style>
 
@@ -62,7 +64,6 @@ main {
   padding: 20px;
   border-radius: 10px;
   margin: 30px;
-  margin-top: 10px;
 }
 
 #sidebar-left,
@@ -75,4 +76,23 @@ main {
   width: 200px;
   min-height: 400px;
 }
+
+.reset-likes {
+  display: block;
+  color: white;
+  border-width: 1px;
+  padding: 1rem;
+  background-color: #42a36b;
+  border-radius: 1rem;
+  margin: 0.75rem auto 0;
+  transition: background-color 200ms ease, color 200ms ease;
+  will-change: background-color, color;
+}
+
+.reset-likes:hover {
+  color: #35495e;
+  background-color: #54c77f;
+  cursor: grab;
+}
+
 </style>

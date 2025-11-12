@@ -10,14 +10,13 @@
 
 <style scoped>
 .app-footer {
-  position: fixed;
-  bottom: 0;
-  left: 0;
   width: 100%;
   background-color: #35495e;
   color: white;
   text-align: center;
   padding: 1rem;
-  margin-top: 2rem;
+  margin: 0;
+  margin-top: 1rem
+
 }
 </style>

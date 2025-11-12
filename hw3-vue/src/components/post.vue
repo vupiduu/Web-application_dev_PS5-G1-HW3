@@ -114,19 +114,18 @@ export default {
 }
 
 .like-btn {
-    flex: 0, 0, 200;
-    margin: 4;
-    background: blue;
-    color: white;
-    max-width: 60px;
-    border-radius: 4px;
-    cursor: pointer;
-    font-size: 12px;
-    transition: background-color 0.2s;
+  color: white;
+  border-width: 1px;
+  padding: 1rem;
+  background-color: #42a36b;
+  border-radius: 1rem;
+  transition: background-color 200ms ease, color 200ms ease;
+  will-change: background-color, color;
 }
 
 .like-btn:hover {
-    background: blue;
-    filter: brightness(.90);
+  color: #35495e;
+  background-color: #54c77f;
+  cursor: grab;
 }
 </style>

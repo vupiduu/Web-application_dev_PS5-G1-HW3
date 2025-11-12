@@ -6,8 +6,8 @@
   <header class="app-header">
     <h1>{{ title }}</h1>
     <nav>
-      <a href="#">Home</a>
-      <a href="#">Signup</a>
+      <router-link to="/">Home</router-link>
+      <router-link to="/signup">Signup</router-link>
     </nav>
   </header>
 </template>
