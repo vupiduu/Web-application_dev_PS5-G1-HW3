@@ -1,16 +1,17 @@
-<template>
-  <router-view />
-</template>
-
-<script>
-export default {
-  name: "App",
-};
+<script setup>
+import HeaderComponent from '@/components/HeaderComponent.vue'
+import FooterComponent from '@/components/FooterComponent.vue'
 </script>
 
-<style scoped>
-/* You can add global page styling here if needed */
-body {
-  font-family: Arial, sans-serif;
-}
-</style>
+<template>
+  <HeaderComponent />
+  <h1>You did it!</h1>
+  <p>
+    Visit <a href="https://vuejs.org/" target="_blank" rel="noopener">vuejs.org</a> to read the
+    documentation
+  </p>
+  <FooterComponent />
+</template>
+
+<style scoped></style>
+
