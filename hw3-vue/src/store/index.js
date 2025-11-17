@@ -41,7 +41,7 @@ export default createStore({
                 "id": 5,
                 "userName": "Triin Kuusik",
                 "date": "Sep 20, 2025",
-                "picture": "./hw3-vue/public/icon.ico",
+                "picture": "https://imgs.search.brave.com/2YD_WRfhNLR2hQORF_vbKw1r6oKUuNoLC6QC2his05Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tZWRp/YS5pc3RvY2twaG90/by5jb20vaWQvMTQw/NjYwNTUxMC9kZS9m/b3RvL3BvcnRyJUMz/JUE0dC1laW5lcy1s/dXN0aWdlbi1kYWNr/ZWx3ZWxwZW4taW4t/YmxhdWVtLWJhdW13/b2xsaGVtZC1kZXIt/amVtYW5kZW4tbWl0/LWVpbmVtLXZlcmQl/QzMlQTRjaHRpZ2Vu/LmpwZz9zPTYxMng2/MTImdz0wJms9MjAm/Yz1QSVJfTEF6Y0JB/VWVLX1lPZ0kwVmpx/Tlk1UWZKSGFyVFZ2/YzhqMzBDTFkwPQ",
                 "content": "console.log(\"Hello, World!\");",
                 "likes": 0,
             },
